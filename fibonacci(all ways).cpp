@@ -17,7 +17,7 @@ int fibdp(int n)
 	int i, fib[n+2];
 	fib[0]=0;
 	fib[1]=1;
-	
+
 	for(i=2;i<=n;i++)
 	{
 		fib[i]=fib[i-1]+fib[i-2];
@@ -36,5 +36,5 @@ a=fib(n);
 cout<<a<<endl;
 b=fibdp(n);
 cout<<b;
-return 0
+return 0;
 }
